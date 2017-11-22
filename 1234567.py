@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="EnEzFuMHPaYkcCkDHygb.lh9WH2MI6ZxzRP9ZZtzUcW.WfmBwlN4elun3kFjw5k+ba6stT77GPAcgD0Vv+vl5E8=")
+cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE()
@@ -83,7 +83,7 @@ kt.loginResult()
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage =""" ====[SelfBot꧁☢☠ℓℓஆՁゆຸ☠☡꧂]====
+helpMessage =""" ====[ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์]====
 
                 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
 
@@ -182,9 +182,8 @@ helpMessage =""" ====[SelfBot꧁☢☠ℓℓஆՁゆຸ☠☡꧂]====
 
 
        [ 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭 ]
-            ꧁☢☠ℓℓஆՁゆຸ☠☡꧂
+              ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์
 	 
-	 http://line.me/ti/p/ShgslAPyYS 
 """
 helpMessage2 ="""╔════════════════╗
 ║〘ᏢᏌᏴᏞᏆᏟ ᏟᎾᎷᎷᎪNᎠ〙
@@ -296,7 +295,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":" ꧁⚡☠ℓℓஆՁゆຸ☠⚡꧂",
+    "cName":"ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์",
     "likeOn":False,
     "pname":False,
     "blacklist":{},
