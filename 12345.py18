@@ -3028,7 +3028,7 @@ def bot(op):
                         print "kicker ok"
                         G.preventJoinByTicket(G)
                         ki.updateGroup(G)
-            elif msg.text.lower() == '#bye':
+            elif msg.text.lower() == 'กลับบ้าน':
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
