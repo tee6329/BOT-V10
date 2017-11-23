@@ -83,7 +83,7 @@ kt.loginResult()
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage =""" ====[SelfBot꧁☢☠ℓℓஆՁゆຸ☠☡꧂]====
+helpMessage =""" ====[꧁☢☠ℓℓஆՁゆຸ☠☡꧂]====
 
                 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
 
@@ -3028,7 +3028,7 @@ def bot(op):
                         print "kicker ok"
                         G.preventJoinByTicket(G)
                         ki.updateGroup(G)
-            elif msg.text.lower() == '#bye':
+            elif msg.text.lower() == 'ออกไป':
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
@@ -4572,7 +4572,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                 cl.sendMessage(msg)
 
 #========================================
-            elif msg.text in ["Gu Tar","bot join all","มาหำ"]:
+            elif msg.text in ["Gu Tar","bot join all","ทหาร"]:
 					G = cl.getGroup(msg.to)
 					info = cl.getGroup(msg.to)
 					G.preventJoinByTicket = False
@@ -4789,7 +4789,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 					ki.sendText(msg.to,"KAMI PAMIT TEMAN👋😂")
 				else:
 					ki.sendText(msg.to,"He declined all invitations")
-            elif msg.text in ["Gu bye","!bye"]:
+            elif msg.text in ["Gu bye","!bye","กลับบ้าน"]:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
                 try:
