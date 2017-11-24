@@ -17,19 +17,19 @@ ki.login(token="EmaVvITzZCcQjo7W3PJb.SK7Te9gWYUQsywhOX1wfYW.quWHfPMQMRB0oZQ0uPxO
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EmiogXguyGv03chUFqFe.Vz4+DI5v8TEUGtMphKulhG.j2aMaGOTGQUS8Fx0dz1ny8ebdpvXlDtAEQagsmivPQg=")
+kk.login(qr=True
 kk.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="EmzqcRBq7IcOUrzyLCPf.khw5oKeXkGNprT+dPTIyhW.RYojfWiLfx6InOw27rvsI71NY//HhLRMX0RjYqKZRZM=")
+ks.login(qr=True)
 ks.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="Emr2Vurv5MbVJBCstgO9.NLEdVUFE9zK89Wsdc4+xQq.7J5xt1VOfegPn01qfCODHgH5tRu672IZM/mecO3BL6c=")
+kc.login(qr=True)
 kc.loginResult()
 
 ka = LINETCR.LINE()
-ka.login(token="EmxBEWwTLeAFzWy4YIx8.8dn1/XO+lm5j1UydamMhsa.Vy3Yg/C5iHr08ocQtjgfWvvZ2VovcPWDw0e8ClvDZfw=")
+ka.login(qr=True)
 ka.loginResult()
 
 print "login success"
@@ -1857,23 +1857,27 @@ def bot(op):
                     ks.sendText(msg.to," " + string + " ")
                     kc.sendText(msg.to," " + string + " ")
                     ka.sendText(msg.to," " + string + " ")    
-#-----------------------------------------------
-            elif "Speed" in msg.text:
+           #===============================================
+            elif msg.text in ["Sp","sp"]:
+                cl.sendText(msg.to, "Progress.......")
                 start = time.time()
-                cl.sendText(msg.to, "ƛƇƇЄƧƧ ƧƤЄЄƊ ƜƛƖƬƖƝƓ")
+                time.sleep(0.001)
                 elapsed_time = time.time() - start
-                cl.sendText(msg.to, "%sseconds" % (elapsed_time))  
-		elapsed_time = time.time() - start
-                ki.sendText(msg.to, "%sseconds" % (elapsed_time))  
-		elapsed_time = time.time() - start
-                kk.sendText(msg.to, "%sseconds" % (elapsed_time))  
-		elapsed_time = time.time() - start
-                ks.sendText(msg.to, "%sseconds" % (elapsed_time))  
-		elapsed_time = time.time() - start
-                kc.sendText(msg.to, "%sseconds" % (elapsed_time))  
-		elapsed_time = time.time() - start
-                ka.sendText(msg.to, "%sseconds" % (elapsed_time))  
-#-----------------------------------------------             
+                cl.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                print "[Command]Speed palsu executed"
+            elif msg.text in ["Speed"]:
+                cl.sendText(msg.to, "Progress.......")
+                start = time.time()
+                time.sleep(0.001)
+                elapsed_time = time.time() - start
+                ki.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                kk.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                ks.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                kc.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                ka.sendText(msg.to, "%sseconds" % (elapsed_time))        
+                print "[Command]Speed palsu executed"
+            
+#========================================
         if op.type == 19:
             try:
                 if op.param3 in mid:
