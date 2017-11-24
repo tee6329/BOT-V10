@@ -1870,10 +1870,7 @@ def bot(op):
                 kc.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 ka.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 print "[Command]Speed palsu executed"
-                		
-             elif msg.text in ["Keyy"]:
-                cl.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[ ꧁☢☠ℓℓஆՁՃิ☠☡꧂ ]")
-
+                		             
 #======================================== 
         if op.type == 19:
             try:
