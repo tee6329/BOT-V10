@@ -7,190 +7,186 @@ from bs4 import BeautifulSoup
 import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia
 
 cl = LINETCR.LINE()
-cl.login(token="EmZMiC3V1ZV70KrEMMw6.TZBfSxLpwQmajTfI0hZL5G.11k6S1sUlX9SbdA8oDJustBIJVGyobI+e3SFkBE2g8g=")
+cl.login(token="EnQtcXF8Da5pdHS5nrbb.X3+sw1N25wpytXm08+7rcW.oHRsR1eKTfwLHbiLTd1pp8K9AUxvQ5y//koUEosxbiA=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EmfUsg0drkp2fEBi9Qrb.BNyZ+h9RxCUErhI47z2TsW.zP88/CrIW13pa4qwh5FWcAP0dO+OfD820zCPF4pX5oc=")
+ki.login(token="Ent2LGFcmZNDegiuF2R3.C3uxU5NNlVYFHuNw06LZCW.gAs57AujlCOa7HvEgfhCeCWr0PBpne92C+m9lWKdpkU=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EmspKirwbEjemqqHJUb7.PxA11UvF6+oIj1J2xHVgHW.DD+N4SDD7wvuasJsGnmW5plCMBHpI1kffIFV9ma44Kc=")
+kk.login(token="Enmdi6vfIkGD6hiTvLPe.bXgVtu5kSGoBSNRPtLnC+G.IeOT15L4PCHn579Ykzc7Z3GzeKehB7lgdS6c4UIdr1M=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EmdpE54Je1ojetkXmKQd.3ZijQj/+HYJ/+9NTGXTdBq.Dkv3tBOnJ4DsvFu6ER5mK2zR7h0FRAW0/FJyZiSD2Fs=")
+kc.login(token="EnVcjCFfspx2Lh5hc4q5.PT0fO6oRxm3RJkmvumHfXq.s/QmelfyO1zlUv0pMDuK0zhMGDm46ZEzyGJV2keca1U=")
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="Emesgp6g4xLptFAcKEe2.HczpEpY3698wuSB+TzCDKG.vFtZpDippE+ZkQxxVEDn1BmpjyM+z+f/x4/Lo+cAFlk=")
+kd.login(token="EnpZRgxumPNViyZAjuYc.SH8QKeJASCCT21I1OyjN+a.Qq/8ORJsiQUb+grqiWXsD2szHnhZrK7HLUxyK9syP10=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="EmMtwsiInIfBXPVS5fYa.i/2QVqxGpVzmWQXItt4HYG.cfbtejgIlGQE3TTAg7FlMWcE1/6kwokKNe3wDg1gztM=")
+ke.login(token="EnzrBO5iowNMcODTNtm5.Q0OoFYJHaR1Q19cGwwRPHq.DXk28gYLX3GYT4oh//BHWYo9++4Be/4iw/x7MqsOzR0=")
 ke.loginResult()
 
 kf = LINETCR.LINE()
-kf.login(token="EmCxepD4zQoJp5IhDbta.DP7HM0ARnuIu/2g0+3pMUG./+3rQ+luem39IsiuASywPOVjmG+0TpJhMpmZowgn8yI=")
+kf.login(token="En1FYtLsqoZFZYFdVTnc.IXqIA67Yp2TOiNIPBdv0la.HD0dzNcX5rfoI7qm6EwlCi88zbim+nSKyxo9w0omhQE=")
 kf.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(token="Eme45nZDSATx9C6vYxRa.M5S4YxDWvhoYOasbMPWroG.Tq/iSCV68m9567XK4xxEGSXOAOVJEPwNW+odUm/BwT4=")
+kg.login(token="Enx3b3R1eF4vJXzdgUH4.7UpnrSpbBLku34NMQquZja.x4YxKzrZJTYGjSGdwvJsXXLrlEMf7dinJfx3jLjKDx0=")
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(token="EmIRhD60WnHD3t4FET34.9gH7ABV+xQLJo9i7SbFX5a.Yr0Yii0G3ouW7kOEMdXrPongIIs0Q2ab9Q0xUiRLfHI=")
+kh.login(token="EnCTNh4MU3Y9lUCy39rf.VhUBCNkLBNBEY+aAw6H0ZW.LpKAP5EFi4Tk46FilKnathQMY6QMsDHd+fIyAMEjVuQ=")
 kh.loginResult()
 
 kj = LINETCR.LINE()
-kj.login(token="EmLppwNR3nIRHTOtPilb.8udcfgLi7ehlJbE2o+xCkW.QzwPU+t85FDCd/TcU0H5NdPq0MUzuCXRzaZPRp1O/mY=")
+kj.login(token="EnEAedLdibLoONaMGnK6.Zg2BQYNPKl2ksz44ZIytHG.DN8ar+4Il2MgVoaQ2Z53eFn3uUIEhk3iiPEpbwWPfBk=")
 kj.loginResult()
 
 kl = LINETCR.LINE()
-kl.login(token="EmYDhAhUQqmCaUB8SZA4.XzkQX6Z6SKas/aWEdxhG9a.HTgYRulRHxXSc+72zLVfT2VLIRVZvh4ImQvEtU6KxBg=")
+kl.login(token="EnutRFKDWhrhTfkmXbo6.lEc1JaEVsI3l5xpWt5mAnG.x3HmElMPxHJz4X7H3hYa8KqEoaiNFIeDfFdRAGtP91Q=")
 kl.loginResult()
 
 km = LINETCR.LINE()
-km.login(token="EmCXaH6hkxN7L4iWpyGa.M18YOGKVCrQRdiHWLocYoG.Bga5dUzA36+J0GekTRX7Sz5R9vrUWYaxXn7rGrXUPBc=")
+km.login(token="EnVpepsOV5mXyKu0QfZ6.muq18IWfKt5SEgFXA9fxfG.g0jDSEPT2yonBE4Xr9Ois1Se98T1Wyc7Xmt6l3Qf+CY=")
 km.loginResult()
 
 kn = LINETCR.LINE()
-kn.login(token="EmjOueAJz9I4iNjWUPm0.xk6CFUa1TffEm+BFjYuhCa.pk6HGOsm6rlBtQLo4D48hQAaLUBlOgUJx0qGfVEpyc8=")
+kn.login(token="EncsNNIon04D5fsfBLK7./hD97gr5Xe1yxI05XUWpLW.DS9b4TgUIkCkYuRyCHpR3WYlbk7BQYMeJQFgwbyM9kg=")
 kn.loginResult()
 
 ko = LINETCR.LINE()
-ko.login(token="Em44M0djUhjilmwO5eW4.gNyro7TbVPOq9q7KfxZ6ja.fD1FXX13tI04xIuOkhGBE5+F3sywEuweexo1C/GxJ1U=")
+ko.login(token="EnZbJaYLpeju4gDp6p16.jNAlelBFImiLiQ74z7TQLG.oJ9MFipwshDCwjRTuo4YiP62dvhK4seLO5eswqiok2A=")
 ko.loginResult()
 
 kp = LINETCR.LINE()
-kp.login(token="Emm6NUELDiThHb11mo63.beFYyPfuxT1XkkxB0z7bOW.iKoovhLczCH/Pd0VtVxhYA/x5NpywVyBiceIZwcxI2s=")
+kp.login(token="EnLP2RWQwCI5pQiys4E6.JshQn3mNrRt2A6dgNKEFjG.KwxHyEsfNCb1QIj+M/jTMBYuZNgTE7j43498PgkGDq8=")
 kp.loginResult()
 
 kq = LINETCR.LINE()
-kq.login(token="EmTyM8gXpOZkJwy0hnK3.Zcwf6HrGpji9sCc98VTOeW.suZo5gb/3FZ2hEFhe2+t+gomNdr1GnH0566EGnElV58=")
+kq.login(token="EnXAAKwYb7Ypf4msjkIa.O5l+/QmuY6G/wgyx2fh9EG.cK7F5BNAtPBsyNLeJaMEofAxa/PBZINbLUMrYML5BKM=")
 kq.loginResult()
 
 kr = LINETCR.LINE()
-kr.login(token="Emaas45PFxDMQU2svLIa.r5CTm/T+B9J2h3ZXLAhq6G.od8/LyM8B5Luv7HiYiew3n0zS1uLfsyqd5Nja1SeApM=")
+kr.login(token="En30RAuEqV3Of0ffNFk7.EOr9BRGLhQ4vTNqpFe1hfW.oCAUGCHiDramWgJlkcdU3tTJODRJEB10Sq4/LXOo7Ec=")
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="Emwfi9Mdukz6QroWpHQ7.bHov9ONJEzx2Ya/PwMshPW.0DaYTC4xiCU3AaklyQNCVxoRowvu47htNMQNGM/Jpo8=")
+ks.login(token="Enet1M8ZA9Khg7DMeoN5.L1HeXTaxon2Sz1CLgvtfzq.lqwb5ibFWDEIqlis6gNOihSL9fLljv2MR6wYCxOQeMk=")
 ks.loginResult()
 
 kt = LINETCR.LINE()
-kt.login(token="EmLX3yrZguae6q822s49.HKYa3NeUc1iHvq5GaRXJgq.yAuKmCAeoHK8R/5p65i8x1N8Ek1an6ywPurnBBEq/jQ=")
+kt.login(token="Eng8t5wROkreLDTDSfR1.Rp5lRKgcZmlY4wRBeDTpaq.hq5XIi1r1qffuANiD7WmnMiHYKcZ5+5GZSTwOiZPruY=")
 kt.loginResult()
 
-print "Tamii Bot"
+print "Bii Bot"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage ="""
 
->==========S̵̩̥̬̳͎̥͗̇̿́͛͑͛̓͢͝e̢̡͈̥͒̈̍̓́̍͆͜͡l̛̟͓̺̲̝̳̫̩̠̅̈́̍̿͘͝ḟ̴͔͈̜͓̪̊́̋̉̇͗͐̚͠ C̷̡͖̭͕̗̐̓̎̿̚̕͜͜͢͡ͅo̧̩̙̙̹̰͇̅̑̿͘͝ṃ̵̫͔̣̣̬͇̄̅͛͗̕m̷̜͕̣͎͔̤͗̍̿̐͞͞͝ą̸̛͚̹̫̯̖̈͑͊̕n̝̟͎͉͍̪͚̪͖̈́̑͌̇̀̏d̛̥̙͕̯̲͔͙͍̾̍̓͘͞ I̛͕̮̝͉̞̯̞̜̓̎̂͐͒̒̕͢ń̵̨͇͙͙̺̲͇͖̯͕̆͗̓́̍͘̚͞͞ Ḡ̢̖̙͖̮̀̄͑̃̓́̆̚r̴̻̝͕̭̘̎̐͑͆͟͜͜͝o̫̞̤͉̪͉̿͐̏̓̕̕ú̝͖̠͎̅́̌͊̀̏̊͟͠͠p̷̝̮̰̺̫̬̤̗̒͒̉̾̀̅̾͊̿̈́ͅ----->
+Command For Bii
 
-��✒ Me
-��✒ Id
-��✒ Mid
-��✒ Gift
-��✒ Mid @
-��✒ Cn: Display Name
-��✒ Cc: Clock Name
-��✒ Mc:
-��✒ Tl: text
-��✒ Auto join: on/off
-��✒ Auto add: on/off
-��✒ Auto leave: on/off
-��✒ Clock: on/off
-��✒ Share on
-��✒ Add message: text
-��✒ Message:
-��✒ Add comment: text
-��✒ Comment: 
-��✒ Cbroadcast text
-��✒ Gbroadcast text
-��✒ Reject
+Me
+Id
+Mid
+Gift
+Mid @
+Cn: Display Name
+Cc: Clock Name
+Mc:
+Tl: text
+Auto join: on/off
+Auto add: on/off
+Auto leave: on/off
+Clock: on/off
+Share on
+Add message: text
+Message:
+Add comment: text
+Comment: 
+Cbroadcast text
+Gbroadcast text
+Reject
 
->==========Č̨̡͇͈͇̤̖͒̆͌͆̇ͅO̧̻͈̬͇͊͛̑͋̌ͅM̨̨̞͔̣̠͔̭͔̓̇̔̊̋̒̍̐͐͡M̷̬̜̼͔̾̔̄͋́͟͜A̛͓͇̖̰͈̎͐̏͆́̿̑Ṇ̶̨͔̠̱̥̘̘̎̈̾̔̊̕͞ͅD̨̢̛̤̘̳͙͖͑͌̇̀͒͒̍͢͝ Ǧ̫̟̳̙̞͑̈́͛͑͌̑̿͋Ŕ̵̨̥͕͍̻̥̞̝͈̇̊̅͆̏͛̐Ò̸̡͉̺̼̞͓̹̩͐͌͆̒͟Ũ͇͍̘̥̪̘̠͗͆͊͌̆͟͜P̵̧͈̯̦̼͙̟͆̿͋̒̓͜----->
+Command For Group
 
-��✒ Creator
-��✒ Gn: text
-��✒ Invite: mid
-��✒ Invite:on Send contact
-��✒ Mybot
-��✒ Allgift 
-��✒ All mid
-��✒ Cancel
-��✒ Link on/off
-��✒ ginfo
-��✒ Gurl
-��✒ Glist
-��✒ Say
-��✒ Set
-��✒ Gcancel: number
-��✒ Masuk / Join
-��✒ Sayang
-��✒ Beb
-��✒ Cinta
-��✒ Sayang pulang
-��✒ Pulang
-��✒ Ban @ target
-��✒ Uban @ target
-��✒ Ban -> send contact
-��✒ Unban -> send contact
-��✒ Comment bl/wl
-��✒ Banlist
-��✒ Cekban
-��✒ Clear ban
-��✒ Kill
-��✒ Kill ban
-��✒ Speed
-��✒ Mentionall
-��✒ Nk @ target
-��✒ Tk @ target
-��✒ Ambilin @ Steal dp target
-��✒ Sampul @ Steal cover target
-��✒ Copy @ All bot copy target
-��✒ Mycopy @ Copy target profile
-��✒ Keluar @ target
-��✒ music
-��✒ .lyric
-��✒ .instagram
-��✒ .reboot
-��✒ Wikipedia
-��✒ Cleanse
+Creator
+Gn: text
+Invite: mid
+Invite:on Send contact
+Mybot
+Allgift 
+All mid
+Cancel
+Link on/off
+ginfo
+Gurl
+Glist
+Say
+Set
+Gcancel: number
+Masuk / Join
+Sayang
+Beb
+Cinta
+Sayang pulang
+Pulang
+Ban @ target
+Uban @ target
+Ban -> send contact
+Unban -> send contact
+Comment bl/wl
+Banlist
+Cekban
+Clear ban
+Kill
+Kill ban
+Speed
+Mentionall
+Nk @ target
+Tk @ target
+Ambilin @ Steal dp target
+Sampul @ Steal cover target
+Copy @ All bot copy target
+Mycopy @ Copy target profile
+Keluar @ target
+music
+.lyric
+.instagram
+.reboot
+Wikipedia
+Cleanse
 
->==========Ç͔̠̺̪̯̈́͑̉̈͞Ǫ̸̪̙̻̻̀͘͟͠͞͠M̴̭̬͎͈̲͎̜̱̫̽̅̌̄͊͘M̛̘͇̟͙̦̗̬̥̰͌̐̎͌͛̌̍̂͊ͅA̶̧̫̮̖̦͈͓̳͇̜̎͌̽̐̀̀̾N̨͚̱̞̩̟͖͇̓̎͛́̅̀̓͘͜͞ͅD̡̰̻̮̻̓̀̊̒͊͆͢ B̻̬͇͖̜̗̋͊̓̀̀͠O̡̨͍̻̱̱̠̺̤͛̉̋̌͋T̪͖̣̥̣̟̹͕͛͂̏͡͝----->
+Command For Bot
 
-��✒ Ybot
-��✒ Ycancel
-��✒ Y1-Y18 Contact Bot
-��✒ Y1-Y2 tl:
-��✒ Y1-Y2 say
-��✒ Y1-Y2 tag
-��✒ Y1-Y2 invite:
-��✒ Y1-Y3 mid
-��✒ Y1-Y2 gurl
-��✒ Y1-Y5 gift
-��✒ Y1-Y18 rename:
-��✒ All: rename all:
-��✒ Allbio: Isi bio:
-��✒ Y1-Y10 rgroup
-��✒ Y1-Y5 join
-��✒ Y1-Y5 bye
-��✒ Y1-Y2 link on/off
+Ybot
+Ycancel
+Y1-Y18 Contact Bot
+Y1-Y2 tl:
+Y1-Y2 say
+Y1-Y2 tag
+Y1-Y2 invite:
+Y1-Y3 mid
+Y1-Y2 gurl
+Y1-Y5 gift
+Y1-Y18 rename:
+All: rename all:
+Allbio: Isi bio:
+Y1-Y10 rgroup
+Y1-Y5 join
+Y1-Y5 bye
+Y1-Y2 link on/off
 
->=========Ç̴̡̙͈͕͈͖͇̈̅́̍͗̌̀͠Ô̴̝̺̠̦̄̈́̌̀͂͟͡ͅM̡̢̖̲̳͇͙͗̿̈́͂͐͞͠M̵͇̻̩̯͍̫̺̰͋̄̀̀̿̈́̈̃͟͜͝Ą͖̘̪̪̼̖͕̺̏̈̊́͋̂́̃͜͞͝Ṉ̡̣̺̺͑̑͑̒͌ͅD̢̧̬͕̪̘̺͖͎̉͗̾́̃͗̑̃̂͡ P̢̹̗̖̲̈́́̍̿̾͗͂̂̕͜R̵̻̬͇̪̥̯͓̘͑̋̎̍͢͝O̧̙̳͕͔͙̰̬̪̒͋͑̈̔͞Ț̵̼̲͉̞̌̉̓̐̀̓E̩̘̩̠̩̱̔̈͆͌̏C̶̡̳̫͓̜̲̏̾́͡͝ͅT̩͉̲̝̩̤̬̙̫̽̓̏͆̈́----->
+Command For Protect
 
-��✒ Qr on/off
-��✒ Backup on/off
-��✒ Protect On/off
-��✒ Namelock On/off
-
-��✒ Creator 👇👇
-��✒ http://line.me/ti/p/jlEouH0zr3
-
-��✒ C͍͇̪̲͎̯͎̫̩̽̅̈́̅̌́̍̐ŗ̛͔̳͔̦́̋͛̎e̶̮̳͕͍̺̼̱͎͛̃̾̍̑̐ǻ͕͍̻̭̟̪͒́́̎̕͘̕͟t̢̠̻̗̠͙̦͒̉̈̎͂̐͒͑o̸̡̲̜̯̤͚̠̬͊̓̌̄̒͠r̵̺̲̗̩͙̐̇̾̐͐̏̃̓́̊ B̝̪̭͓͍̺͐͂̑̅̓͗͗̈́͢y͚͔̝͖̮̤͚̅̉̑̐̓̀̋̊͂͜͜͢͞:̶̨̻̪͓̦̻̋̾̂̽̎͘͜͜ Ţ̸̡̫̙͎̰̜͎͚̎̀͗̌̏͛͌͜a̛̛̪̱̳͉͚̹̣̦̼͒͗͆̿͋͡͠m̰̬͇̭̔̓́̓͢͞ĩ̡̢̥̰̤̗̩̥̥̫́̐̔̾̾͂̚͠͝i̴͙̦̹̫̾̈̿̈́̊̃̆͒͜͢͞ ��✒•┅───── """
+Qr on/off
+Backup on/off
+Protect On/off
+Namelock On/off
+ """
 
 KAC=[cl,ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp,kq,kr,ks,kt]
 mid = cl.getProfile().mid
@@ -220,8 +216,8 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-admin = ["ub736c5b1794f5aa30026d162d07ce5e6",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-owner = ["ub736c5b1794f5aa30026d162d07ce5e6",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+admin = ["uc77fd25b59f6e563d84f1334f3fed10b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+owner = ["uc77fd25b59f6e563d84f1334f3fed10b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
 wait = {
     'contact':False,
     'autoJoin':False,
@@ -229,9 +225,9 @@ wait = {
     'leaveRoom':False,
     'timeline':True,
     'autoAdd':False,
-    'message':"Thanks for add Me MY NAME IS TAMII",
+    'message':"Thanks for add Me",
     "lang":"JP",
-    "comment":"AutoLike by Tamii",
+    "comment":"Auto Like Bye line.me/ti/p/~@enr7503k",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
@@ -2976,26 +2972,26 @@ def bot(op):
                         cl.sendText(msg.to,"Already off\n\n"+ datetime.today().strftime('%H:%M:%S'))
             elif "Namelock:on" in msg.text:
                 if msg.to in wait['pname']:
-                    cl.sendText(msg.to,"ƬƲƦƝЄƊ ƠƝ.")
+                    cl.sendText(msg.to,"Turn On")
                 else:
-                    cl.sendText(msg.to,"ƛԼƦЄƛƊƳ ƠƝ")
+                    cl.sendText(msg.to,"Already on")
                     wait['pname'][msg.to] = True
                     wait['pro_name'][msg.to] = cl.getGroup(msg.to).name
             elif "Namelock:off" in msg.text:
                 if msg.to in wait['pname']:
-                    cl.sendText(msg.to,"ƬƲƦƝ ƠƑƑ.")
-                    del wait['pname'][msg.to]
+                    cl.sendText(msg.to,"Turn off")
+                     del wait['pname'][msg.to]
                 else:
-                    cl.sendText(msg.to,"ƛԼƦЄƛƊƳ ƠƑƑ")
+                    cl.sendText(msg.to,"Already")
 					
             elif "Blockinvite:on" == msg.text:
 				gid = msg.to
 				autocancel[gid] = "poni"
-				cl.sendText(msg.to,"ƤƦƠƬЄƇƬ ƖƝƔƖƬƛƬƖƠƝ ƠƝ")
+				cl.sendText(msg.to,"Protect invite on")
             elif "Blockinvite:off" == msg.text:
 				try:
 					del autocancel[msg.to]
-					cl.sendText(msg.to,"ƤƦƠƬЄƇƬ ƖƝƔƖƬƛƬƖƠƝ ƠƑƑ")
+					cl.sendText(msg.to,"Protect invite on")
 				except:
 					pass
             elif "Cn: " in msg.text:
@@ -3290,7 +3286,7 @@ def bot(op):
 
             elif msg.text in ["Set"]:
             	print "Setting pick up..."
-                md = "[☸]�� SETTING ADMIN ONLY ��[☸]\n"
+                md = "Setting Bii Only\n"
                 
                 
                 if wait["likeOn"] == True: md+="��Auto like : on\n"
