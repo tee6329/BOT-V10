@@ -54,11 +54,11 @@ km.login(token="
 km.loginResult()
 
 kn = LINETCR.LINE()
-kn.login(token="
+kn.login(token="EnZDUg5DvvayMMi8gJv6.yBVBTPsh6djJxYEgfejy1G.Ud0hVhzXJ9cheAUzFEqF7NLfvfyAoDHgXmrCVXztxDo=")
 kn.loginResult()
 
 ko = LINETCR.LINE()
-ko.login(token="
+ko.login(token="EnC38ZGeAcP4PLCWWx52.rm2ylLXzJpoyheGEx9PgmG.iFhJ0UeAvr8gIAbFmVhoLn2OVs/WWOm21nEGeJ25s3w=")
 ko.loginResult()
 
 kp = LINETCR.LINE()
